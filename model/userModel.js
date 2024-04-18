@@ -9,8 +9,8 @@ const userSchema = new mongoose.Schema({
         type:String,
         require:true
     },
-    subject:{
-        type:String,
+    contact:{
+        type:Number,
         require:true,
     },
     message:{

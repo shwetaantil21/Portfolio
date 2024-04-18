@@ -24,7 +24,7 @@ const ContactUserController = async(req,res)=>{
         const data = await userModel({
             name:req.body.name,
             email:req.body.email ,
-            subject:req.body.subject,
+            contact:req.body.contact,
             message:req.body.message,
         })
         if(data){
